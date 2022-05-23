@@ -1,0 +1,11 @@
+def Backtrack(k):
+    if isSmall(p): return S(P)
+
+    else:
+        # divide P into smaller instances P1, P2, ..., Pk
+
+        # for each Pi, call DivideAndConquerAlgorithm(Pi)
+
+        # combine the results of the calls to DivideAndConquerAlgorithm(Pi)
+
+        return combine(DAC(P1), DAC(P2), ..., DAC(Pk))
